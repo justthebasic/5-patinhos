@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+    align-items: center;
+    margin-top: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main h1 {
+    margin-bottom: 2rem;
+}
+
+.texto {
+   margin-top: 3rem;
+   margin-left: 4.5rem;
+}
+.texto p {
+    text-align: start;
+    justify-content: center;
+    word-break: break-all;
+    line-height: 1.3rem;
+    
+}
+
+button {
+    padding: 10px 15px;
+    background: rgb(55, 189, 2);
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(43, 153, 0);
+}
